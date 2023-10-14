@@ -1,6 +1,7 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
+import Footer from './components/footer';
 import AddBooks from './pages/AddBooks';
 import Book from './pages/Book';
 import Home from './pages/Home';
@@ -20,6 +21,7 @@ function App() {
         <Route path='/books' element={ <Book /> } />
         <Route path='/addBooks' element={ <AddBooks /> } />
       </Routes>
+      <Footer />
     </Router>
   );
 }

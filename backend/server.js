@@ -4,7 +4,8 @@ const mongoUri="mongodb+srv://dhiraj03patil:Dhiraj%402000@cluster0.w08qk3r.mongo
 const port=4000;
 const app=express();
 const Test=require('./models/bookModel')
-
+const cors = require("cors");
+app.use(cors());
 app.use(express.json())
 
 const router=express.Router();
