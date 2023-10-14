@@ -18,3 +18,4 @@ const bookSchema=new Schema({
 })
 
 module.exports=mongoose.model('book',bookSchema);
+//"book" name of the Database

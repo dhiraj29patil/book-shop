@@ -11,9 +11,7 @@ router.post("/add",async (req,res) => {
         .then(() => {
             res.status(200).json({message: "Book Added Successfully"});
         })
-        // const addedBook = await bookModel.create(data).then(() => {
-        //     res.status(200).json({msg:"Added Successfully"}).catch((error) => res.status(400).json({msg:"error in request"}));
-        // })
+        
     }catch(error){
         console.log(error);
     }
@@ -59,6 +57,7 @@ router.put("/updateBook/:id", async (req,res) => {
     }
 })
 
+//DELETE Book
 router.delete("/deleteBook/:id", async (req,res) => {
     const id = req.params.id;
     try{
