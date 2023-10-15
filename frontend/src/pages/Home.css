@@ -1,14 +1,41 @@
 .Home-Page{
     width: 100%;
-    min-height: 91.5vh;
+    min-height: 100vh;
     max-height: auto;
 }
 
 .homeimg{
+    
     width: 400px;
     height: 400px;
 }
 
+.custom-form {
+    width: 40%; 
+    border: 2px solid white; 
+    border-radius: 20px; 
+    padding: 20px; 
+}
+
 .viewBook{
     text-decoration: none;
+    
 }
+
+.bg{
+    background-image: url(../images/img2.jpg);
+    
+
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+
+.small-input {
+    width: 350px; 
+    
+}
+
+

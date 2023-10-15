@@ -15,9 +15,9 @@ const Book = () => {
         fetch();
     });
     return (
-        <div className="bg-dark" style={{ minHeight: "91.5vh"}}>
-            <div className="d-flex justify-content-center align-items-center py-3">
-                <h4 className="text-white">Books Section</h4>   
+        <div className="bg-dark bg" style={{ minHeight: "100vh"}}>
+            <div className="d-flex justify-content-center align-items-center py-5">
+                <h4 className="text-white py-3" style={{fontSize:"50px"}}>Books Section</h4>   
             </div>
             {Data ? ( 
                 <BooksSection data={Data} />

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <div style={{ borderBottom: "1px solid white"}}>
-            <nav className="navbar navbar-expand-lg bg-dark">
+            <nav className="navbar navbar-expand-lg bg-dark fixed-top">
                 <div className="container">
                     <a className="navbar-brand text-white" href="/">
                         BooksStore

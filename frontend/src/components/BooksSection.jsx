@@ -8,18 +8,20 @@ const BooksSection = ({ data }) => {
                 data.map((item, index) => (
                     <div className="m-3"
                         style={{
-                            width: "200px",
-                            height: "320px",
+                            width: "270px",
+                            height: "390px",
                             border: "1px solid white",
                             borderRadius: "20px"
                         }}
                     >
                         <div>
-                            <img style={{ width: "200px", height: "210px",borderTopLeftRadius:"20px",borderTopRightRadius:"20px" }} className="img-fluid" src={item.image} alt="/" />
+                            <img style={{ width: "270px", height: "280px",borderTopLeftRadius:"20px",borderTopRightRadius:"20px" }} className="img-fluid" src={item.image} alt="/" />
                         </div>
-                        <h6 style={{ fontSize: "15px" }} className="px-2 p-3 text-white">
-                            {item.title}
+                        
+                        <h6 style={{ fontSize: "15px" }} className="px-1 p-2 text-white">
+                            {item.title} by <b style={{ fontSize: "18px" }}>{item.author}</b>
                         </h6>
+                        
                     </div>
                 ))}
         </div>
