@@ -7,4 +7,6 @@ On the backend, I created a Node.js Express server with two API endpoints: one f
 
 My choice of database, is MongoDB, facilitated efficient data storage. 
 
+Throughout the development process, I have maintained clean, well-structured, and thoroughly documented code. This will aid in future maintenance and scalability of the application.
+
 This project showcased my proficiency in modern web development technologies and my ability to create a user-friendly and functional application, emphasizing a clear separation between the frontend and backend for modularity and scalability.
