@@ -6,7 +6,7 @@ const Navbar = () => {
         <div style={{ borderBottom: "1px solid white"}}>
             <nav className="navbar navbar-expand-lg bg-dark">
                 <div className="container">
-                    <a className="navbar-brand text-white" href="#">
+                    <a className="navbar-brand text-white" href="/">
                         BooksStore
                     </a>
                     <button 

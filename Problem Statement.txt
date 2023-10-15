@@ -1,0 +1,27 @@
+For this task, we would like you to build a simple web application that allows users to list books with their images, title, and author. Users should also be able to add new books through the user interface. Your task is divided into two parts:
+ 
+(*)Frontend:
+
+Create a React application.
+
+Implement a user-friendly interface that displays a list of books with their images, titles, and authors.
+
+Implement a feature to add new books via a form.
+
+Use modern and responsive design principles to make the application look appealing.
+ 
+(*)Backend:
+
+
+Create a Node.js Express server to serve as the backend for your application.
+
+Implement two API endpoints:
+
+	-An API to create a new book with the following data: title, author, and an optional 		image URL.
+	-An API to fetch all the books stored in the backend.
+
+You are free to choose any database of your choice to store book data.
+
+Please ensure that your code is clean, well-structured, and documented. 
+
+Feel free to use any libraries, frameworks, or tools that you are comfortable with. 
